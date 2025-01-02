@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alexander Robbins</title>
+  <link rel="stylesheet" href="./styles.css">
+  <!--font awesome for icons-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <script></script>
+</head>
+
+<body>
+  <section id="about-me">
+    <nav>
+      <div class="personal_logo">Alexander Robbins</div>
+      <ul class="nav_link-list">  <!--look into BEM (block element modifiers for css)-->
+        <li class="nav_link"> <!--creates a link with hover effect and make it balck upon highlight named Languages-->
+          <a href="./images/Alexander Robbins Update Resume 2024.pdf" target="_blank" class=" 
+          nav_link--anchor
+          link_hover-effect
+          link_hover-effect--black
+          ">Resume</a>
+        </li>
+        <li class="nav_link"> <!--link to design projects-->
+          <a href="#projects" class=" 
+          nav_link--anchor
+          link_hover-effect
+          link_hover-effect--black
+          ">Projects</a>
+        </li>
+        <li class="nav_link"> <!--link to contact me-->
+          <a href="mailto:alexanderrobbins@gmail.com" class=" 
+          nav_link--anchor
+          nav_link--anchor-primary
+          ">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="flex flex-1">
+      <div class="about-me_info row">
+        <div class="about-me_info--container">
+          <figure class="about-me_picture--mask">
+            <img src="./images/E1B3B352-65BE-4678-AD4C-99849837DD2D.JPG" class="about-me_picture" alt="Picture of Me!">
+          </figure>
+          <h1 class="about-me_info--title">
+            Welcome! I'm <strong class="text--brown"> Alexander Robbins </span>
+          </h1>
+          <p class="about-me_info--para">
+            An <strong class="text--brown"> avid mechanical engineer </strong> with strong leadership and people skills looking to design solutions for tomorrow's challenges.
+          </p>
+        </div>
+        <figure class="about-me_img--container">
+          <img src="./images/IMG_1795.jpg" class="about-me_img" alt="MEflics">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects"> <!--projects section--> 
+    <div class="container">
+      <div class="row">
+        <h1 class="section_title">Here are some of my <span class="text--brown">projects </span></h1>
+        <ul class="project_list">
+          <!--Bottle Opener-->
+          <li class="project">
+            <div class="project_wrapper">
+              <img src="./images/opener.jpg" class="project_img" alt="Bottle Opener">
+              <div class="project_description">
+                <h3 class="project_description-title">Wall-Mounted Bottle Opener</h3>
+                <h4 class="project_description-subtitle">
+                  Sheet Metal Fabrication, FEA Analysis, Water Jetting
+                </h4>
+                <p class="project_description--para">
+                  A wall-mounted bottle opener that collects discarded bottle caps in a removable container.
+                  Major componets include annealed steel opener, steel cap collection box, and backplate
+                  for wall mounting. 
+                </p>                
+                <div class="project_description--links">
+                  <a href="https://docs.google.com/document/d/1jeE0-nqzmeClx8u4XIlchyUbnJiYnxf06gXNkQHYLxE/edit?usp=sharing" target="_blank" class="project_description--link">
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!--Hot Box-->
+          <li class="project">
+            <div class="project_wrapper">
+              <img src="./images/Screenshot 2025-01-01 201222.png" class="project_img" alt="Bottle Opener">
+              <div class="project_description">
+                <h3 class="project_description-title">Hot Box</h3>
+                <h4 class="project_description-subtitle">
+                  Python Libraries, Digital Electronics, Laser Cutting
+                </h4>
+                <p class="project_description--para">
+                  A multi-purpose warming box that keeps food items at a constant set temperature range between 85 and 95 degrees Fahrenheit.
+                  Designed to keep plates of food or bread warm at the dining table, to be enjoyed throughout the meal without the worry of becoming cold.
+                  Uses thermoelectric heating, LED indication, and CSV data tracking to keep feedback loop going with user indication and data.
+                </p>                
+                <div class="project_description--links">
+                  <a href="https://docs.google.com/document/d/15jGxcU_vplLwtovy76uBmSHEGfdvfIe3qitwV-Iq4Gk/edit?usp=sharing" target="_blank" class="project_description--link">
+                    <i class="fas fa-link"></i>
+                  </a>
+                  <a href="https://github.com/Cambeion/Tufts" target="_blank" class="project_description--link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!--Sun Visor-->
+          <li class="project">
+            <div class="project_wrapper">
+              <img src="./images/Screenshot 2025-01-01 201746.png" class="project_img" alt="Bottle Opener">
+              <div class="project_description">
+                <h3 class="project_description-title">Car Sun Visor</h3>
+                <h4 class="project_description-subtitle">
+                  3D Printing, Optics, Woodworking
+                </h4>
+                <p class="project_description--para">
+                  Augmentation of the car sun visor to further protect drivers from sunblindness.
+                  3D printed joints, moveable blackout circle, easy storage when not in use.
+                </p>                
+                <div class="project_description--links">
+                  <a href="" target="_blank" class="project_description--link">
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div> 
+  </section>
+
+  <section id="skills"> <!-- skills section -->
+    <div class="container">
+      <div class="row">
+        <h1 class="section_title"></h1>
+        <div class="section_list">
+          <div class="grid-container">
+            <!--grid layout-->
+            <div class="grid-item">
+              <!-- cad section -->
+             <h2>Software Experience</h2>
+             <figure class="skills_img--wrapper">
+               <img src="./images/autocad.png" alt="Autocad" class="skills_img">
+             </figure>
+             <figure class="skills_img--wrapper">
+               <img src="./images/revit.png" alt="Revit" class="skills_img">
+             </figure>
+             <figure class="skills_img--wrapper">
+               <img src="./images/download__2_-removebg-preview.png" alt="OnShape" class="skills_img">
+             </figure>
+             <figure class="skills_img--wrapper">
+               <img src="./images/multisim.png" alt="MultiSimaq" class="skills_img">
+             </figure>
+            </div>
+            <div class="grid-item">
+            <!-- languages section -->
+             <h2>Languages</h2>
+             <figure class="skills_img--wrapper">
+               <img src="./images/python.png" alt="Python" class="skills_img">
+             </figure>
+             <figure class="skills_img--wrapper">
+               <img src="./images/html.png" alt="HTML" class="skills_img">
+             </figure>
+             <figure class="skills_img--wrapper">
+               <img src="./images/css.png" alt="CSS" class="skills_img">
+             </figure>
+             <figure class="skills_img--wrapper">
+               <img src="./images/c++.png" alt="C++" class="skills_img">
+             </figure>
+            </div>
+            <div class="grid-item">
+              <!-- technical section -->
+             <h2>Technical Skills</h2>
+             <figure class="skills_img--wrapper">
+                <img src="./images/download (5).jpg" alt="CNC" class="skills_img">
+              </figure>
+              <figure class="skills_img--wrapper">
+                <img src="./images/download (4).jpg" alt="Digital Electronics" class="skills_img">
+              </figure>
+              <figure class="skills_img--wrapper">
+                <img src="./images/IMG_1589.jpg" alt="Woodworking" class="skills_img">
+              </figure>
+              <figure class="skills_img--wrapper">
+                <img src="./images/download (8).jpg" alt="3D Printing" class="skills_img">
+              </figure>
+            </div>
+            <div class="grid-item">
+              <h2>Data Analytics</h2>
+              <figure class="skills_img--wrapper">
+                <img src="./images/sql.png" alt="SQL" class="skills_img">
+              </figure>
+              <figure class="skills_img--wrapper">
+                <img src="./images/tableau.png" alt="Tableau" class="skills_img">
+              </figure>
+              <figure class="skills_img--wrapper">
+                <img src="./images/excel.png" alt="Excel" class="skills_img">
+              </figure>
+              <figure class="skills_img--wrapper">
+                <img src="./images/powerbi.png" alt="Power BI" class="skills_img">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="row footer_row">
+      <a href="#" class="footer_anchor">
+        <figure class="footer_logo">
+          <img src="./images/tuftsbarber.png" class="footer_logo--img" alt="TuftsBarber Logo">
+        </figure>
+        <span class="footer_logo--popper">
+          Top
+          <i class="fas fa-arrow-up"></i>
+        </span>
+      </a>
+      <div class="footer_social--list">
+        <a href="https://www.linkedin.com/in/alexander-robbins-b56983268/" target="_blank" class="
+        footer_social--link
+        link_hover-effect
+        link_hover-effect
+        ">LinkedIn</a>
+        <a href="mailto:alexanderrobbins@gmail.com" class="
+        footer_social--link
+        link_hover-effect
+        link_hover-effect
+        ">Email Me</a>
+        <a href="./images/Alexander Robbins Update Resume 2024.pdf" target="_blank" class="
+        footer_social--link
+        link_hover-effect
+        link_hover-effect
+        ">Resume</a>
+
+      </div>
+      <div class="footer_copyright"> Copyright © 2024 Alexander Robbins </div>
+    </div>
+  </footer>
+</body>
+
+</html>
